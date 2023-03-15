@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" type="image/x-icon" href="./photo1.png" />
+    <script
+      src="https://kit.fontawesome.com/023ab5ed12.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Checkout</h1>
+      </div>
+
+      <div class="main">
+        <div class="content1">
+          <h3 class="title">Contact infomation</h3>
+          <div class="fix">
+            <p class="detail">E-mail</p>
+            <input class="text" type="text" placeholder="Enter your email..." />
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+
+          <div class="fix">
+            <p class="detail">Phone</p>
+            <input
+              class="text"
+              class="text-box"
+              type="text"
+              placeholder="Enter your phone..."
+            />
+            <i class="fa-solid fa-phone"></i>
+          </div>
+
+          <div class="middle">
+            <h3 class="title">Shipping address</h3>
+            <div class="fix">
+              <p class="detail">Full name</p>
+              <input class="text" type="text" value="Roadney Cotton" />
+              <i class="fa-solid fa-circle-user"></i>
+            </div>
+            <div class="fix">
+              <p class="detail">Address</p>
+              <input class="text" type="text" placeholder="Your address..." />
+              <i class="fa-sharp fa-solid fa-house"></i>
+            </div>
+            <div class="fix">
+              <p class="detail">City</p>
+              <input class="text" type="text" placeholder="Your city..." />
+              <i class="fa-solid fa-city"></i>
+            </div>
+          </div>
+
+          <div class="country">
+            <div class="fix last">
+              <p class="detail">Country</p>
+              <input
+                class="text last"
+                type="text"
+                placeholder="Your country..."
+              />
+              <select>
+                <option></option>
+              </select>
+              <i class="fa-sharp fa-solid fa-earth-europe"></i>
+            </div>
+            <div class="fix last">
+              <p class="detail">Postal code</p>
+              <input
+                class="text last"
+                type="text"
+                placeholder="Your postal code..."
+              />
+              <i class="fa-sharp fa-solid fa-envelopes-bulk"></i>
+            </div>
+          </div>
+          <div id="endbox">
+            <input class="checkbox" type="checkbox" />
+            <label class="time">Save this information for next time</label
+            ><br />
+          </div>
+          <div class="orange">
+            <button>Continue</button>
+          </div>
+        </div>
+        <div class="content2">
+          <div class="bag">
+            <div class="pic">
+              <img class="product" src="./photo1.png" alt="bag" />
+            </div>
+            <div class="tag">
+              <h3>Vintage Backbag</h3>
+              <div class="currency">
+                <h4 class="price">$54.99</h4>
+                <p class="line">$94.99</p>
+              </div>
+              <p class="count"><button>-</button>1<button>+</button></p>
+            </div>
+          </div>
+
+          <div class="bag">
+            <div class="pic">
+              <img class="product" src="./photo2.png" alt="bag" />
+            </div>
+            <div class="tag">
+              <h3>Levi Shoes</h3>
+              <div class="currency">
+                <h4 class="price">$74.99</h4>
+                <p class="line">$124.99</p>
+              </div>
+              <p class="count"><button>-</button>1<button>+</button></p>
+            </div>
+          </div>
+          <div class="total">
+            <div class="cost">
+              <h3 class="track">Shipping</h3>
+              <p class="final">$19</p>
+            </div>
+            <div class="cost">
+              <h3 class="track">Total</h3>
+              <p class="final">$148.98</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
